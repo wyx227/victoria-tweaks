@@ -1,0 +1,165 @@
+﻿#电力锯木
+pm_electric_saw_mills = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+		electrical_generation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_electricity_add = 5
+
+			# output goods
+			goods_output_wood_add = 120 #100
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+#硬木
+pm_no_hardwood = {
+	texture = "gfx/interface/icons/production_method_icons/no_hardwood_selection.dds"
+}
+
+pm_hardwood_5 = {
+	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = -10
+			goods_output_hardwood_add = 5
+		}
+	}
+}
+
+pm_hardwood_10 = {
+	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = -16
+			goods_output_hardwood_add = 10
+		}
+	}
+}
+
+pm_hardwood = {
+	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
+
+	unlocking_production_methods = {
+		pm_saw_mills
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = -30
+			goods_output_hardwood_add = 20
+		}
+	}
+}
+
+pm_hardwood_30 = {
+	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
+
+	unlocking_production_methods = {
+		pm_saw_mills
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = -40
+			goods_output_hardwood_add = 30
+		}
+	}
+}
+
+pm_hardwood_40 = {
+	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
+
+	unlocking_production_methods = {
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = -50
+			goods_output_hardwood_add = 40
+		}
+	}
+}
+
+#自动化
+pm_no_equipment = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_chainsaws = {
+	texture = "gfx/interface/icons/production_method_icons/chainsaws.dds"
+
+	unlocking_technologies = {
+		combustion_engine
+	}
+
+	unlocking_production_methods = {
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_oil_add = 5
+
+			#output goods
+			goods_output_wood_add = 60	#0
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = 200
+			building_employment_engineers_add = 200
+		}
+	}
+}
+
+#运输
+pm_log_carts = {
+	texture = "gfx/interface/icons/production_method_icons/log_carts.dds"
+
+	pollution_generation = 15
+
+	unlocking_technologies = {
+		electric_railway
+	}
+
+	unlocking_production_methods = {
+		pm_saw_mills
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 8
+			goods_output_wood_add = 20	#0
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+	}
+}

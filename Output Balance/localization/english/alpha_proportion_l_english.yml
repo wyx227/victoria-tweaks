@@ -1,0 +1,115 @@
+﻿l_english:
+ #排序逻辑为制作顺序(只有涉及本地化的部分才会出现在这里)
+
+ #建造部门 News pmg pm
+ pmg_iron_weapon_recovery:0 "Iron Weapon Recovery"
+ pmg_steel_weapon_recovery:0 "Steel Weapon Recovery"
+ pmg_explosive_recovery:0 "Explosive Recovery"
+ pmg_heavy_weapon_recovery:0 "Heavy Weapon Recovery"
+
+ pm_no_iron_weapon_recovery:0 "No Iron Weapon Recovery"
+ pm_iron_gun:0 "Iron Gun Recovery"
+ pm_iron_cannon:0 "Iron Cannon Recovery"
+ pm_iron_synthesize:0 "Iron Weapon Recovery"
+ pm_no_steel_weapon_recovery:0 "No Steel Weapon Recovery"
+ pm_steel_gun:0 "Steel Gun Recovery"
+ pm_steel_cannon:0 "Steel Cannon Recovery"
+ pm_steel_synthesize:0 "Steel Weapon Recovery"
+ pm_no_ammunition_recovery:0 "No Explosive Recovery"
+ pm_5_ammunition:0 "Small Explosive Recovery"
+ pm_10_ammunition:0 "Large Explosive Recovery"
+ pm_no_arc_recovery:0 "No Heavy Weapon Recovery"
+ pm_arc_aeroplanes:0 "Aeroplane Recovery"
+ pm_arc_tanks:0 "Tank Recovery"
+ pm_arc_synthesize:0 "Heavy Weapon Recovery"
+
+ #伐木营地 News pm
+ pm_hardwood_5:0 "Trace Hardwood Production"
+ pm_hardwood_10:0 "Medium Hardwood Production"
+ # 这一行没有语法错误，因为原版history中使用语法"pm_hardwood"
+ pm_hardwood:20 "Small Hardwood Production"
+ pm_hardwood_30:0 "Large Hardwood Production"
+ pm_hardwood_40:0 "Massive Hardwood Production"
+
+ #化学合成厂 News pm
+ pm_no_artificial_fibers:0 "Focus Dye Production"
+ pm_rayon_1:0 "Priority Dye Production"
+ pm_rayon_2:0 "Balancing Production"
+ pm_rayon_3:0 "First Silk Production"
+ pm_rayon_4:0 "Focus Silk Production"
+
+ #纺织厂 News pmg pm
+ pmg_ratio_building_textile_mills:0 "Elastic Fabric Ratio"
+
+ pm_handwork_sewing:0 "Hand Sewing"
+ pm_machinery_sewing:0 "Machinery Sewing"
+ pm_no_scaling:0 "No Scaling"
+ pm_elastics_2:0 "Elastic Fabric 150%"
+ pm_elastics_3:0 "Elastic Fabric 200%"
+ pm_elastics_4:0 "Elastic Fabric 250%"
+ pm_elastics_5:0 "Elastic Fabric 300%"
+
+ #动力机械厂 News pm
+ pm_automobile_production_0:0 "Emphasize Automobile Making"
+ pm_automobile_production_1:0 "Large Automobile Making"
+ pm_automobile_production_2:0 "Medium Automobile Making"
+ pm_automobile_production_3:0 "Small Automobile Making"
+
+ #电子厂 News pm
+ pm_radios_1:0 "Small Radio Production"
+ pm_radios_2:0 "Medium Radio Production"
+ pm_radios_3:0 "Large Radio Production"
+ pm_radios_4:0 "Emphasize Radio Production"
+
+ #战争机器厂News pm
+ pm_tank_production_1:0 "3:1 Tank Production"
+ pm_tank_production_2:0 "2:1 Tank Production"
+ pm_tank_production_3:0 "1:1 Tank Production"
+ pm_tank_production_4:0 "1:2 Tank Production"
+
+ #食品厂 News pm
+ pm_patent_stills_1:0 "Patent Stills 25%"
+ pm_patent_stills_2:0 "Patent Stills 50%"
+ pm_patent_stills_3:0 "Patent Stills 75%"
+ pm_patent_stills_4:0 "Patent Stills 100%"
+
+ #家具制造厂 News pm
+ pmg_ratio_furniture_manufacturies:0 "Precision Tools Ratio"
+
+ pm_luxury_furniture_1:0 "Craft Production"
+ pm_luxury_furniture:2 "Solid Furniture"
+ pm_luxury_furniture_3:0 "Costly Furniture"
+ pm_precision_tools:0 "Precision Tools"
+ pm_precision_tools_2:0 "Precision Tools 150%"
+ pm_precision_tools_3:0 "Precision Tools 200%"
+ pm_precision_tools_3:0 "Precision Tools 250%"
+ pm_precision_tools_3:0 "Precision Tools 300%"
+
+ #玻璃厂 News pm
+ pmg_ratio_building_glassworks:0 "Bone Porcelain Ratio"
+
+ pm_ceramics_1:0 "Earthen Porcelain"
+ pm_ceramics_2:0 "Flower Porcelain"
+ pm_bone_china:0 "Bone Porcelain"  #？？？Bone China???
+ pm_bone_china_2:0 "Bone Porcelain 150%"
+ pm_bone_china_3:0 "Bone Porcelain 200%"
+ pm_bone_china_4:0 "Bone Porcelain 250%"
+ pm_bone_china_5:0 "Bone Porcelain 300%"
+ 
+ #铁路 New pm
+ pmg_ratio_building_railway:0 "Transport Mode"
+ 
+ pm_balance_transport:0 "General Transport Mode"
+ pm_railway_2:0 "In-State Delivery"
+ pm_railway_3:0 "Short-Distance Transport"
+ pm_railway_4:0 "Urban Traffic"
+ pm_railway_5:0 "Suburban Traffic"
+ pm_railway_6:0 "Long-Distance Transport"
+ pm_railway_7:0 "Cross-State Delivery"
+ 
+ pmg_railway_width:0 "Railway Width"
+ 
+ pm_standard_width:0 "Standard Width"
+ pm_wide_railway:0 "Wide Railway"
+ pm_narrow_railway:0 "Narrow Railway"
+ 

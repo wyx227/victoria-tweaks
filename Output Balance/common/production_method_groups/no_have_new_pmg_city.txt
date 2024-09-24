@@ -1,0 +1,60 @@
+﻿#化学合成厂pmg2
+pmg_synthetic_silk = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_artificial_fibers
+		pm_rayon_1
+		pm_rayon_2
+		pm_rayon_3
+		pm_rayon_4
+	}
+}
+
+#动力机械厂pmg2
+pmg_automobile_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_automobiles_disabled
+		pm_automobile_production_3
+		pm_automobile_production_2
+		pm_automobile_production_1
+		pm_automobile_production_0
+	}
+}
+
+#电子厂pmg2
+pmg_radios_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_radios
+		pm_radios_1
+		pm_radios_2
+		pm_radios_3
+		pm_radios_4
+	}
+}
+
+#战争机器厂pmg2
+pmg_tanks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_tank_production
+		pm_tank_production_1
+		pm_tank_production_2
+		pm_tank_production_3
+		pm_tank_production_4
+	}
+}
+
+#食品厂pmg3
+pmg_distillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_disabled_distillery
+		pm_pot_stills
+		pm_patent_stills_1
+		pm_patent_stills_2
+		pm_patent_stills_3
+		pm_patent_stills_4
+	}
+}

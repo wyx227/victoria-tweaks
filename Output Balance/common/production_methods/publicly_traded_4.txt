@@ -1,0 +1,111 @@
+# 化工厂-公开交易
+pm_publicly_traded_building_chemical_plants = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	#unlocking_production_methods = {
+	#	pm_improved_fertilizer
+	#	pm_nitrogen_fixation
+	#}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+# 炼钢厂-公开交易
+pm_publicly_traded_building_steel_mills = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	#unlocking_production_methods = {
+	#	pm_bessemer_process
+	#	pm_open_hearth_process
+	#	pm_electric_arc_process
+	#}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+# 动力机械厂-公开交易
+pm_publicly_traded_building_motor_industries = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	#unlocking_production_methods = {
+	#	pm_electric_engines
+	#	pm_diesel_engines
+	#}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}
+
+# 弹药厂-公开交易
+pm_publicly_traded_building_munition_plants = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	#unlocking_production_methods = {
+	#	pm_explosive_shells
+	#}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_cooperative_ownership
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+		}
+	}
+}

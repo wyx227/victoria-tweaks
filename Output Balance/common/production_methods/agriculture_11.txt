@@ -1,0 +1,16 @@
+﻿#畜牧场-有刺铁围栏
+pm_barbed_wire_fences = {
+	texture = "gfx/interface/icons/production_method_icons/barbed_wire_fencing.dds"
+	unlocking_technologies = {
+		mechanical_tools	#IV堑壕工事→II机械工具
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_iron_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}

@@ -1,0 +1,71 @@
+﻿#纺织厂pmg2
+pmg_luxury_building_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxury_clothes
+		pm_handwork_sewing
+		pm_craftsman_sewing
+		pm_machinery_sewing
+		pm_elastics
+	}
+}
+
+#纺织厂New pmg比例
+pmg_ratio_building_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_scaling
+		pm_elastics_2
+		pm_elastics_3
+		pm_elastics_4
+		pm_elastics_5
+	}
+}
+
+#家具制造厂pmg2
+pmg_luxury_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxuries
+		pm_luxury_furniture_1
+		pm_luxury_furniture
+		pm_luxury_furniture_3
+		pm_precision_tools
+	}
+}
+
+#家具制造厂New pmg比例
+pmg_ratio_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_scaling
+		pm_precision_tools_2
+		pm_precision_tools_3
+		pm_precision_tools_4
+		pm_precision_tools_5
+	}
+}
+
+#玻璃厂pmg2
+pmg_luxury_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_disabled_ceramics
+		pm_ceramics_1
+		pm_ceramics
+		pm_ceramics_2
+		pm_bone_china
+	}
+}
+
+#玻璃厂 比例pmg
+pmg_ratio_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_scaling
+		pm_bone_china_2
+		pm_bone_china_3
+		pm_bone_china_4
+		pm_bone_china_5
+	}
+}

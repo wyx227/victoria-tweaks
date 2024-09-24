@@ -1,0 +1,12 @@
+﻿#伐木营地-硬木生产pmg
+pmg_hardwood = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_hardwood
+		pm_hardwood_5
+		pm_hardwood_10
+		pm_hardwood
+		pm_hardwood_30
+		pm_hardwood_40
+	}
+}

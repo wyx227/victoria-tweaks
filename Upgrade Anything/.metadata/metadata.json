@@ -1,0 +1,12 @@
+{
+  "name" : "Upgradable Everything",
+  "id" : "",
+  "version" : "",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : ["Balance","Fixes", "Gameplay", "Warfare"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

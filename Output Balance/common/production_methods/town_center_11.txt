@@ -1,0 +1,20 @@
+﻿#城镇中心-自由教堂pm
+pm_free_urban_clergy = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
+	
+	disallowing_laws = {
+		law_state_religion
+		law_state_atheism
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clerks_add = 100	#50
+			building_employment_clergymen_add = 100	#150
+		}
+
+		unscaled = {
+			building_clergymen_shares_add = 2
+		}
+	}
+}

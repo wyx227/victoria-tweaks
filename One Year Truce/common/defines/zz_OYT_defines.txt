@@ -1,0 +1,3 @@
+﻿NDiplomacy = {
+	DEFAULT_TRUCE_MONTHS = 12
+}

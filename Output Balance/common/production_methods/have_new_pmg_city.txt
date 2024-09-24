@@ -1,0 +1,575 @@
+﻿#纺织厂
+#New pm手工缝纫
+pm_handwork_sewing = {
+	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_silk_add = 5
+
+			# output goods
+			goods_output_clothes_add = -10
+			goods_output_luxury_clothes_add = 10
+		}
+
+		level_scaled = {
+			# profit = 400 (20.8)
+			building_employment_shopkeepers_add = 250
+		}
+	}
+}
+
+#工匠缝纫
+pm_craftsman_sewing = {
+	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_silk_add = 10
+
+			# output goods
+			goods_output_clothes_add = -20
+			goods_output_luxury_clothes_add = 20
+		}
+
+		level_scaled = {
+			# profit = 400 (20.8)
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+#New pm机械缝纫
+pm_machinery_sewing = {
+	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
+
+	#unlocking_production_methods = {
+	#	pm_sewing_machines
+	#}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_silk_add = 15
+
+			# output goods
+			goods_output_clothes_add = -30
+			goods_output_luxury_clothes_add = 30
+		}
+
+		level_scaled = {
+			# profit = 400 (20.8)
+			building_employment_shopkeepers_add = 750
+		}
+	}
+}
+
+#弹性织物
+pm_elastics = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+	unlocking_technologies = {
+		vulcanization
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 10
+			goods_input_silk_add = 10	#15，本来这个值15是不改的，本来后面的1.5和2都有额外增加，分别是5+5和10+10，现在这项改动已被遗弃
+
+			# output goods
+			goods_output_clothes_add = -20
+			goods_output_luxury_clothes_add = 40	#35
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+#New pmg pm 纺织厂比例
+pm_no_scaling = {	#通用无比例调节生产方式
+	texture = "gfx/interface/icons/production_method_icons/unused/no_maintenance.dds"
+}
+
+pm_elastics_2 = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+	unlocking_production_methods = {
+		pm_elastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 5
+			goods_input_silk_add = 5		#这个值还是10的时候，原计划是12.5
+
+			# output goods
+			goods_output_clothes_add = -10
+			goods_output_luxury_clothes_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+pm_elastics_3 = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+	unlocking_production_methods = {
+		pm_elastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 10
+			goods_input_silk_add = 10	#这个值还是20的时候，原计划是25
+
+			# output goods
+			goods_output_clothes_add = -20
+			goods_output_luxury_clothes_add = 40
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+pm_elastics_4 = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+	unlocking_production_methods = {
+		pm_elastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 15
+			goods_input_silk_add = 15
+
+			# output goods
+			goods_output_clothes_add = -30
+			goods_output_luxury_clothes_add = 60
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1500
+		}
+	}
+}
+
+pm_elastics_5 = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+	unlocking_production_methods = {
+		pm_elastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 20
+			goods_input_silk_add = 20
+
+			# output goods
+			goods_output_clothes_add = -40
+			goods_output_luxury_clothes_add = 80
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 2000
+		}
+	}
+}
+
+#家具制造厂
+#New pm手工家具
+pm_luxury_furniture_1 = {
+	texture = "gfx/interface/icons/production_method_icons/luxury_furniture.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 5
+			goods_input_wood_add = -5
+
+			# output goods
+			goods_output_furniture_add = -10
+			goods_output_luxury_furniture_add = 10
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 250
+		}
+	}
+}
+
+#坚固家具-高档家具生产
+pm_luxury_furniture = {
+	texture = "gfx/interface/icons/production_method_icons/luxury_furniture.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_wood_add = -10
+
+			# output goods
+			goods_output_furniture_add = -20
+			goods_output_luxury_furniture_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+#New pm高档家具
+pm_luxury_furniture_3 = {
+	texture = "gfx/interface/icons/production_method_icons/luxury_furniture.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 15
+			goods_input_wood_add = -15
+
+			# output goods
+			goods_output_furniture_add = -30
+			goods_output_luxury_furniture_add = 30
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 750
+		}
+	}
+}
+
+#pm精密工具
+pm_precision_tools = {
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+
+	unlocking_technologies = {
+		mechanical_tools
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 20
+			goods_input_tools_add = 10
+			goods_input_wood_add = -20
+
+			# output goods
+			goods_output_furniture_add = -20
+			goods_output_luxury_furniture_add = 40
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+#New pmg pm 家具制造厂比例
+pm_precision_tools_2 = {
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+
+	unlocking_production_methods = {
+		pm_precision_tools
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10	#5
+			goods_input_tools_add = 5
+			#goods_input_wood_add = -10
+
+			# output goods
+			goods_output_furniture_add = -10
+			goods_output_luxury_furniture_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+pm_precision_tools_3 = {
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+
+	unlocking_production_methods = {
+		pm_precision_tools
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 20	#10
+			goods_input_tools_add = 10
+			#goods_input_wood_add = -20
+
+			# output goods
+			goods_output_furniture_add = -20
+			goods_output_luxury_furniture_add = 40
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+pm_precision_tools_4 = {
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+
+	unlocking_production_methods = {
+		pm_precision_tools
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 30	#15
+			goods_input_tools_add = 15
+			#goods_input_wood_add = -30
+
+			# output goods
+			goods_output_furniture_add = -30
+			goods_output_luxury_furniture_add = 60
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1500
+		}
+	}
+}
+
+pm_precision_tools_5 = {
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+
+	unlocking_production_methods = {
+		pm_precision_tools
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 40	#20
+			goods_input_tools_add = 20
+			#goods_input_wood_add = -40
+
+			# output goods
+			goods_output_furniture_add = -40
+			goods_output_luxury_furniture_add = 80
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 2000
+		}
+	}
+}
+
+
+#玻璃厂
+#New pm土瓷
+pm_ceramics_1 = {
+	texture = "gfx/interface/icons/production_method_icons/ceramics.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 5
+
+			# output goods
+			goods_output_glass_add = -10
+			goods_output_porcelain_add = 10
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 250
+		}
+	}
+}
+
+#陶瓷
+pm_ceramics = {
+	texture = "gfx/interface/icons/production_method_icons/ceramics.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 10
+
+			# output goods
+			goods_output_glass_add = -20
+			goods_output_porcelain_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+#New pm花瓷
+pm_ceramics_2 = {
+	texture = "gfx/interface/icons/production_method_icons/ceramics.dds"
+
+	unlocking_production_methods = {
+		pm_leaded_glass
+		pm_crystal_glass
+		pm_houseware_plastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 15
+
+			# output goods
+			goods_output_glass_add = -30
+			goods_output_porcelain_add = 30
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 750
+		}
+	}
+}
+
+#骨瓷
+pm_bone_china = {
+	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
+
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+
+	unlocking_production_methods = {
+		pm_leaded_glass
+		pm_crystal_glass
+		pm_houseware_plastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 16	# 30
+
+			# output goods
+			goods_output_glass_add = -10	# -20
+			goods_output_porcelain_add = 20	# 40
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+#New pmg pm 玻璃厂比例
+pm_bone_china_2 = {
+	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
+
+	unlocking_production_methods = {
+		pm_bone_china
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 8
+
+			# output goods
+			goods_output_glass_add = -5
+			goods_output_porcelain_add = 10
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+pm_bone_china_3 = {
+	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
+
+	unlocking_production_methods = {
+		pm_bone_china
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 16
+
+			# output goods
+			goods_output_glass_add = -10
+			goods_output_porcelain_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+}
+
+pm_bone_china_4 = {
+	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
+
+	unlocking_production_methods = {
+		pm_bone_china
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 24
+
+			# output goods
+			goods_output_glass_add = -15
+			goods_output_porcelain_add = 30
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 1500
+		}
+	}
+}
+
+pm_bone_china_5 = {
+	texture = "gfx/interface/icons/production_method_icons/bone_china.dds"
+
+	unlocking_production_methods = {
+		pm_bone_china
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_dye_add = 32
+
+			# output goods
+			goods_output_glass_add = -20
+			goods_output_porcelain_add = 40
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 2000
+		}
+	}
+}
